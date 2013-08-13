@@ -7,7 +7,7 @@ categories: community
 
 Boise loves to be on lists: [Top places for families](http://www.forbes.com/sites/tomvanriper/2012/04/04/the-best-cities-for-raising-a-family/), [Most adventurous state](http://www.adventure-journal.com/2013/04/poll-whats-the-best-adventure-state/), and even [most sexually active city](http://www.youtube.com/watch?v=He20hfDgLMk).
 
-Yet in spite of this, the lion's share of software development still rests in the confines of .NET and Java communities.  Fast rising languages like Ruby have yet to develop a solid base in the valley, but it's time than now to change that.
+Yet in spite of this, the lion's share of software development still rests in the confines of .NET and Java communities.  Fast rising languages like Ruby have yet to develop a solid base in the valley, but it's time to change that.
 
 Ruby, at it's core, is centered around _developer happiness_.  That's not something you read very often, and the community surrounding Ruby is one of it's biggest strong suits (although there are countless others).  As a Boise State professor put it: "The smaller languages have great documentation, excellent community, and fantastic resources... because they have a lot more to prove."  
 
