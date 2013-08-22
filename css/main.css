@@ -13,13 +13,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-color: #555;
+  font-color: #666;
   font-weight: 300;
   text-align: left;
 }
 
 h1 { margin: 20px; text-align: center; }
 
-p { font-color: #555; text-align: left; }
+p { font-color: #666; text-align: left; line-height: 20px; }
 
 a { color: ; }
+
+.meta { color: #888; }
