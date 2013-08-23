@@ -1,4 +1,4 @@
-.heading { padding: 60px; text-align: center; }
+.heading { padding: 40px; text-align: center; }
 
 .pure-g-r.pure-center {
   float: none;
@@ -22,6 +22,20 @@ h1 { margin: 20px; text-align: center; }
 
 p { font-color: #666; text-align: left; line-height: 20px; }
 
-a { color: ; }
+a,
+a:visited { color: #B11F24; }
+a:hover { color: #841B1E; }
 
-.meta { color: #888; }
+.post-header { padding-bottom: 10px; width: 100%; border-bottom: 3px solid #f0f0f0; }
+
+ul.posts { list-style-type: none; text-align: left; margin: 0; padding: 0; }
+
+.posts > li > .date { width: 100px; margin-left: -100px; color: #999; font-weight: 100; }
+
+.posts > li > a { text-decoration: none; font-size: 20px; }
+
+.posts > li { padding: 20px 0; }
+
+.subtle { color: #999; }
+.center-text { text-align: center; margin: auto auto; }
+.tagline { padding-bottom: 40px; }
