@@ -4,9 +4,15 @@ title: Localmotion
 ---
 
 <div id="home">
+  <p class="subtle center-text tagline">
+    We're a community of like-minded developers who love Ruby for the same reasons everyone does: 
+    Fast Iterations, Beautiful Syntax, and because it's damn fun to write. Join us at our regular 
+    <a href="http://twitter.com/localmotionid/">meetups</a> to learn, nerd out, and have a great time.
+  </p>
+  <h2 class='post-header'>Latest Posts</h2>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><span class='date'>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
