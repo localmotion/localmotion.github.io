@@ -7,16 +7,17 @@ html, body {
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -100px; 
+  margin-bottom: -160px; 
 }
 .page-wrap:after {
   content: "";
   display: block;
 }
-.footer, .page-wrap:after {
-  /* .push must be the same height as footer */
-  height: 100px; 
+.page-wrap:after {
+  height: 160px; 
 }
+
+.footer { height: 100px; }
 
 .heading { padding: 40px 0; text-align: center; }
 
@@ -70,8 +71,9 @@ ul.posts { list-style-type: none; text-align: left; margin: 0; padding: 0; }
 .tagline { padding-bottom: 40px; }
 .tagline a { text-decoration: none; }
 
-.footer { border-top: thin solid #f0f0f0; opacity: 0.8; color: #c6c6c6; background-color: #fafafa; }
+.footer { margin-top: 60px; border-top: thin solid #f0f0f0; opacity: 0.8; color: #c6c6c6; background-color: #fafafa; }
 .footer:hover { border-top: thin solid #f1f1f1; opacity: 1; }
 .footer a,
 .footer a:visited { color: #999; }
 .footer a:hover { color: #777; }
+.footer .icons { font-size: 20px; margin-top: 33px; }
