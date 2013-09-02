@@ -78,3 +78,5 @@ ul.posts { list-style-type: none; text-align: left; margin: 0; padding: 0; }
 .footer a:visited { color: #999; }
 .footer a:hover { color: #777; }
 .footer .icons { font-size: 20px; margin-top: 33px; }
+.footer .icons a { text-decoration: none; }
+.footer .icons i { line-height: 1; }
