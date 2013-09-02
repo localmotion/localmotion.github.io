@@ -1,3 +1,13 @@
+pre, code { 
+  background-color: #fafafa; 
+  border: thin solid #f7f7f7; 
+  width: 100%; 
+  padding: 20px; 
+  text-align: left;
+}
+
+pre > code { background: transparent; border: none; padding: 0; width: inherit; }
+
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
