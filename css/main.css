@@ -8,14 +8,14 @@ html, body {
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -160px; 
+  margin-bottom: -160px;
 }
 .page-wrap:after {
   content: "";
   display: block;
 }
 .page-wrap:after {
-  height: 160px; 
+  height: 140px;
 }
 
 .footer { height: 100px; }
@@ -42,7 +42,7 @@ h6 {
 
 h1 { margin: 20px; text-align: center; }
 
-p { font-color: #666; text-align: left; line-height: 20px; }
+p { font-color: #aaa; font-weight: 300; text-align: left; font-size: 1.5rem; }
 
 a,
 a:visited { color: #B11F24; }
@@ -52,10 +52,10 @@ a:hover { color: #841B1E; }
 
 ul.posts { list-style-type: none; text-align: left; margin: 0; padding: 0; }
 
-.posts > li > .date { 
-  width: 100px; 
-  margin-left: -100px; 
-  color: #999; 
+.posts > li > .date {
+  width: 100px;
+  margin-left: -100px;
+  color: #999;
   font-weight: 100;
 } @media(max-width: 767px) {
   .posts > li > .date { margin-left: 0; width: 100%; }
@@ -69,7 +69,6 @@ ul.posts { list-style-type: none; text-align: left; margin: 0; padding: 0; }
 .pull-left { float: left; }
 .pull-right { float: right; }
 .center-text { text-align: center; margin: auto auto; }
-.tagline { padding-bottom: 40px; }
 .tagline a { text-decoration: none; }
 
 .footer { margin-top: 60px; border-top: thin solid #f0f0f0; opacity: 0.8; color: #c6c6c6; background-color: #fafafa; }
